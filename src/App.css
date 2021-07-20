@@ -11,8 +11,8 @@
   background-image: url('./Images/star3.jpg');
   background-repeat: no-repeat;
   background-position: center;
-  /* background-size:cover; */
-  height: 600px;
+  background-size:cover;
+  height: 400px;
 }
 
 .about{
@@ -41,4 +41,36 @@
   display: flex;
   height: 20vh;
   width: 100%;
+  background-image: linear-gradient(to bottom right,#2D232E,#474448);
+  color:#eff3f5 ;
+}
+
+
+.workSection{
+  display: flex;
+  justify-content: space-evenly;
+  background-image: linear-gradient(to bottom right,#2D232E,#474448);
+  color:#eff3f5 ;
+}
+
+#work{
+  background-image: url('./Images/code.webp');
+  text-align: center;
+  align-items: baseline;
+  color: antiquewhite;
+  height: 100%;
+  width: 30%;
+  border-right: rgb(96, 96, 155) solid 8px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bigOne{
+  height: 2rem;
+  width: 2rem;
+}
+
+.row{
+
 }

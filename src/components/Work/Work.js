@@ -3,7 +3,7 @@ import Worklinks from '../Worklinks/Worklinks';
 
 function Work() {
     return(
-    <div class="work" >
+    <div class="workSection" >
         <div id="work">
     <h2>
         Work

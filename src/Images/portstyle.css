@@ -1,0 +1,32 @@
+:root{
+    background-image: linear-gradient(#cdfdff #fff);
+    color: #5f6ba0;
+    --words: #5f9ea0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.header{
+    background-color: bisque;
+    padding:20px;
+    
+}
+
+.header h1{
+    display: inline-block;
+}
+
+.header li {
+    text-align: right;
+    display: inline-block;
+    flex:right;
+    font-size: 20px;
+    margin-left: 25px;
+    
+}
+
+.header nav {
+    padding-top: 15px;
+    margin-right: 21px;
+    float: right;
+}

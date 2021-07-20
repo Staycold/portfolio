@@ -1,0 +1,44 @@
+*{
+  font-family: 'Merriweather', serif;
+}
+
+#header{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: rgb(241, 232, 220);
+  background-image: url('./Images/star3.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-size:cover; */
+  height: 600px;
+}
+
+.about{
+  
+}
+
+#pics{
+  height: 12rem;
+  width: 22rem;
+}
+
+#abtParent{
+  text-align: center;
+  align-items: baseline;
+  color: antiquewhite;
+  height: 100%;
+  width: 30%;
+  border-right: rgb(96, 96, 155) solid 8px;
+  background-image: url('./Images/pilotpat.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.abtSection{
+  display: flex;
+  height: 20vh;
+  width: 100%;
+}

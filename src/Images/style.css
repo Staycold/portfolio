@@ -1,0 +1,317 @@
+:root { 
+    box-sizing: border-box;
+    /* background-color: #ffebcd; */
+    color: #5f6ba0;
+    --words: #5f9ea0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: linear-gradient( #cdfdff, #fff);
+        
+}
+
+main {
+    padding: 15px;
+}
+
+/* .full {
+    background-image: linear-gradient(#ffebcd, #fff);
+} */
+h1 {
+    /* background-color: bisque; */
+}
+
+/* this is the nav bar and tip top */
+.header{
+    background-color: bisque;
+    padding:20px;
+    max-height: 5%;
+    
+    
+}
+
+.header h1{
+    display: inline-block;
+    max-width: 30%;
+}
+
+.header li {
+    text-align: right;
+    display: inline-block;
+    flex:right;
+    font-size: 20px;
+    margin-left: 25px;
+    /* float: right; */
+    
+}
+
+.header nav {
+    padding-top: 15px;
+    margin-right: 21px;
+    float: right;
+}
+
+/* this is a surprise ;) */
+span[data-desc]:hover::after{
+    content: attr(data-desc);
+    position: absolute;
+    /* left: 0px; */
+    /* bottom: 20px; */
+    border: 1px solid #fff;
+    background-color:#00bfff;
+    color:#f8f8ff;
+    padding: 11px;
+    /* z-index: 1; */
+    /* font-weight: bolder; */
+    
+}
+
+/* this is the banner directly under the nav bar */
+.underHeader{
+display: inline;
+margin-left: 0px;
+width: 100%;
+height: 5%;
+background-image:url("https://images.theconversation.com/files/306448/original/file-20191211-95111-fbz9rf.jpg?ixlib=rb-1.1.0&rect=31%2C0%2C4205%2C2102&q=45&auto=format&w=1356&h=668&fit=crop");
+background-size: 100%;
+background-repeat: no-repeat;
+font-size: 20px;
+font-weight: bold;
+float: right;
+/* margin-top: 2px; */
+padding-bottom: 0px;
+max-height: 175px;
+}
+
+#stay-cold-pin{
+    width: 10%;
+    height: 175px;
+    display: flex;
+    margin-right: 10px;
+    max-height: 100%;
+}
+
+/* .underHeader p {
+    float: right;
+    font-size: 25px;
+    background-color: #6495ed;
+    display:inline;
+    padding-top:20px;
+    max-height: 25px;
+} */
+
+/* this is the main body of the page */
+.bckrnd{
+
+}
+
+/* the about me section */
+.about{
+    margin-top: 20px;
+    display: inline-block;
+    padding: 20px;
+    max-height:30%; 
+    margin: 20px;
+}
+
+.about h2{
+    border-right: 5px solid var(--words);
+    display: inline-block;
+    max-width: 25%;
+    text-align: left;
+    height: 170px;
+    padding-left: 40px;
+    width: 20%;    
+}
+
+
+.about p {
+    text-align: right;
+    display: inline;
+    flex:right;
+    font-size: 20px;
+    margin-left: 25px;
+    max-width: 70%;
+    
+}
+
+
+/* this is the work section in the main  */
+.work{
+    height: auto;
+    padding: 20px;
+    margin: 20px;
+    max-height: 30%;
+    display: flex;
+    
+
+}
+
+.work h2{
+    border-right: 5px solid var(--words);
+    display: flex;
+    max-width: 25%;
+    text-align: left;
+    height: 170px;
+    padding-left: 40px;
+    width:20%;
+}
+
+/* the boxes wiht the pictures in the work section */
+.boxes{
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    text-align: left;     
+    font-size: 20px;
+    margin-left: 25px;
+    max-width: 70%;
+    padding-left: 20px;
+    max-height: 800px;
+
+}
+
+.bigOne{
+  height: 40%;
+  width: 100%;
+  border-style: 5px solid var(--words) ;
+  max-height: 40%;
+  display: flex;
+}
+
+.bigImg{
+    height: 100%;
+    width: 100%;
+}
+
+.bigImg:hover{
+    box-shadow: inset 0px 0px 8px, 0 0 15px var(--words) ;
+
+}
+
+
+
+.portal{    
+    margin: 10px;
+    padding: 10px;    
+    /* height:100%; */
+    height: auto;
+    width: 50%;
+    display: flex;
+    text-align: center;
+    max-width: 50%;
+    max-height: 100%;
+       
+}
+
+#pics{
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+}
+
+#pics:hover{
+    box-shadow: inset 0px 0px 8px, 0 0 15px var(--words) ;
+}
+
+.row{
+    display: flex;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 30%;
+    margin: 10px;
+    padding: 0 0 20px 0;
+    
+}
+
+/* the contact section */
+.contact{
+    padding: 20px;
+    margin: 20px;
+    max-height: 20%;
+}
+
+.contact h2{
+    border-right: 5px solid var(--words);
+    display: inline-block;
+    max-width: 25%;
+    text-align: left;
+    height: 40px;
+    width: 20%;
+    padding-left: 40px;
+}
+
+.contact li {
+    /* text-align: right; */
+    display: inline-block;
+    flex:end;
+    font-size: 20px;
+    text-decoration: underline;
+    margin: 10px;
+    padding: 10px;
+    /* float: right; */
+    justify-content: space-evenly;
+}
+
+.contact section{
+    padding-top: 15px;
+    margin-right: 21px;
+    float: right;
+}
+
+
+/* this is the text in the about me container */
+#aboutMe{
+    text-align: right;
+    float: right;
+    margin-right: 20px;
+    justify-content: center;
+    max-width: 70%;
+    height: 100%;
+}
+
+/* text under the nav bar */
+#uHtext{
+    float: right;
+    font-size: 25px;
+    background-color:#6495ed;
+    display:inline;    
+    /* max-height: 25px; */
+    margin-top: 135px;
+    color: #fff;
+   
+
+}
+
+.footer{
+    text-align: center;
+    padding-top: 30px;
+}
+
+@media  (max-width:992px) {
+    body {
+        flex: wrap;
+        flex-direction: column;
+    }
+    .underHeader{
+        flex: wrap;
+        flex-direction: column;
+    }
+    #stay-cold-pin{
+        flex: wrap;
+        flex-direction: column;
+    }
+}
+
+@media screen and(max-width:768px) {
+    body{
+        flex: wrap;
+        flex-direction: column;
+    }
+    .underHeader{
+        flex: wrap;
+        flex-direction: column;
+    }
+    #stay-cold-pin{
+        display: none;
+    }
+}

@@ -33,6 +33,7 @@
   width: 100%;
   background-image: linear-gradient(to bottom right,#2D232E,#474448);
   color:#eff3f5 ;
+  
 }
 
 #abtPic{
@@ -50,6 +51,7 @@
 
 #abtp{
   width: 80%;
+  padding:15px
 }
 
 #abtList{
@@ -57,6 +59,8 @@
   -webkit-columns: 5;
   -moz-columns: 5;
 }
+
+
 
 
 
@@ -107,13 +111,26 @@ flex-direction: column;
 justify-content: space-between;
 }
 
+#firstRow{
+  height: 310px;
+}
+
+.desc-container {
+  width: 80%;
+  padding: 15px;
+}
+
+
+#project-section{
+
+}
 /* =====================contact========================= */
 
 .contact{
   display: flex;
   /* flex-direction: column; */
   
-  background-image: linear-gradient(to bottom left,#474448,#2D232E);
+  background-image: linear-gradient(to bottom right ,#2D232E,#474448);
   color:#eff3f5 ;
   height: 200px;
 }
@@ -122,7 +139,7 @@ justify-content: space-between;
   background-image: url('./Images/contact.jpg');
   text-align: center;
   align-items: baseline;
-  color: antiquewhite;
+  color: rgb(31, 30, 28);
   height: 100%;
   width: 20%;
   border-right: rgb(96, 96, 155) solid 8px;
@@ -131,20 +148,35 @@ justify-content: space-between;
   background-size: cover;
 }
 
+.contactLinks{
+ display: flex;
+ justify-content: space-around;
+width: 100%;
+}
+
 #contactLinks{
   display: flex;
   flex-wrap: wrap;
+  width: 80%;
+}
+
+.contactList{
+  
 }
 
 /* ======================================= */
 .img-container {
   width: 20%;
+  
 }
 
-.desc-container {
-  width: 80%;
-}
+
 
 .project-img {
   width: 250px;
+  
+}
+
+#txt{
+  line-height: 2rem;
 }

@@ -9,7 +9,12 @@ import Imgs from '../../Images';
 function Work() {
     const [currentProject, setCurrentProject] = useState('Github');
     const [details, setDetails] = useState({
-        title: "Github"
+        title: "Github", 
+        image: Imgs.Staycold,
+        url1: "https://github.com/Staycold",
+        url2:"",
+        desc:"This is My Github profile. Check out all the useful apps I've written."
+    
     });
 
     const handleProjectChange = (project) => {
@@ -38,7 +43,7 @@ function Work() {
                 title: "Plan Your Trip",
                 image: Imgs.Landingpageimg,
                 url1: "https://github.com",
-                url2:"https://intense-savannah-61016.herokuapp.com/",
+                url2:"https://intense-savannah-61016.herokuapp.com/" ,
                 desc:"Plan Your Trip was the second project I presented for my bootcamp. A small passion project of an idea, this application lets you create an account, where you can store a planned or past trip, with a breakdown for budgeting and even a currency conversion feature. In addition to those features, you can search for and add destinations, and even leave comments on destinations so that you can pass on tips or suggestions to other users."
             })
         }
@@ -48,7 +53,7 @@ function Work() {
                 image: Imgs.Staycold,
                 url1: "https://github.com/Staycold/The_tech_blog",
                 url2:"https://cold-tech-blog.herokuapp.com/",
-                desc:""
+                desc:"The tech blog was a full stack application I developed using handlebars and the MVC filt structure. It is a blog site where you can sign up, post topics, and comment. The foundation for any social media program."
             })
         }
 
@@ -58,7 +63,7 @@ function Work() {
                 image: Imgs.Staycold,
                 url1: "https://github.com/Staycold/Fitness_tracker",
                 url2:"https://benefique-chaise-73181.herokuapp.com/?id=60ef3b49d7315c00159d3821",
-                desc:""
+                desc:"The fitness tracker is a very useful application that allows you to keep track of your worktouts or training sessions. It provides you with the functionality to track many differnt aspects of your workouts, such as duration or how much weight you've lifted and presents you with graphed data."
             })
         }
 

@@ -24,12 +24,23 @@
   width: 22rem;
 }
 
-#abtParent{
+
+/* ============== About Me======================= */
+
+.abtSection{
+  display: flex;
+  height: 260px;
+  width: 100%;
+  background-image: linear-gradient(to bottom right,#2D232E,#474448);
+  color:#eff3f5 ;
+}
+
+#abtPic{
   text-align: center;
   align-items: baseline;
   color: antiquewhite;
   height: 100%;
-  width: 30%;
+  width: 20%;
   border-right: rgb(96, 96, 155) solid 8px;
   background-image: url('./Images/pilotpat.jpg');
   background-repeat: no-repeat;
@@ -37,33 +48,46 @@
   background-size: cover;
 }
 
-.abtSection{
-  display: flex;
-  height: 20vh;
-  width: 100%;
-  background-image: linear-gradient(to bottom right,#2D232E,#474448);
-  color:#eff3f5 ;
+#abtp{
+  width: 80%;
+}
+
+#abtList{
+  columns: 5;
+  -webkit-columns: 5;
+  -moz-columns: 5;
 }
 
 
+
+/* ===================Work========================= */
+
 .workSection{
-  display: flex;
-  justify-content: space-evenly;
-  background-image: linear-gradient(to bottom right,#2D232E,#474448);
+    display: flex;
+  /* flex-direction: column; */
+  
+  background-image: linear-gradient(to bottom left,#474448,#2D232E);
   color:#eff3f5 ;
+  height: 450px;
+ 
 }
 
 #work{
-  background-image: url('./Images/code.webp');
+  /* background-image: url('./Images/code.webp'); */
+  background-image: url('./Images/code3.jpg');
   text-align: center;
   align-items: baseline;
   color: antiquewhite;
   height: 100%;
-  width: 30%;
+  width: 20%;
   border-right: rgb(96, 96, 155) solid 8px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+#worklinks{
+  width:80%;
 }
 
 .bigOne{
@@ -72,5 +96,55 @@
 }
 
 .row{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
 
+.boxes{
+  display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+/* =====================contact========================= */
+
+.contact{
+  display: flex;
+  /* flex-direction: column; */
+  
+  background-image: linear-gradient(to bottom left,#474448,#2D232E);
+  color:#eff3f5 ;
+  height: 200px;
+}
+
+#contact{
+  background-image: url('./Images/contact.jpg');
+  text-align: center;
+  align-items: baseline;
+  color: antiquewhite;
+  height: 100%;
+  width: 20%;
+  border-right: rgb(96, 96, 155) solid 8px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#contactLinks{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* ======================================= */
+.img-container {
+  width: 20%;
+}
+
+.desc-container {
+  width: 80%;
+}
+
+.project-img {
+  width: 250px;
 }

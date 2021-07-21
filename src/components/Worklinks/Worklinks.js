@@ -27,7 +27,7 @@ function Worklinks() {
 
         <div class="portal">
           <a href="https://github.com/Staycold/ReadmeGenerator" target="_blank">
-        <img id ="pics" src="assets/readmegen.png"/> Readme Generator
+        <img id ="pics" src={Imgs.Code}/> Readme Generator
           </a>
         </div>
 
@@ -41,7 +41,7 @@ function Worklinks() {
 
         <div class="portal">
           <a href="https://github.com/Staycold/Team-Profile-Generator-OOP" target="_blank">                       
-        <img id="pics" src="assets/TPG.png"/> Team Profile Generator
+        <img id="pics" src={Imgs.Passwordgen}/> Team Profile Generator
         </a>                          
         </div>
 

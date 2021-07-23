@@ -12,6 +12,23 @@ function Contactme() {
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
 
+
+    const [validated, setValidated] = useState(false);
+
+    const handleSubmit = (event) => {
+      const form = event.currentTarget;
+      if (form.checkValidity() === false) {
+        event.preventDefault();
+        event.stopPropagation();
+      }
+  
+      setValidated(true);
+      window.alert('Thank you! I\'ll be in contact soon')
+
+
+    }
+
+
 return (
 <div class="contact">
 
@@ -36,30 +53,36 @@ return (
         <Modal.Header closeButton>
           <Modal.Title>Contact Me</Modal.Title>
         </Modal.Header>
-        <Modal.Body><Form>
+        <Modal.Body>
+          
+          
+<Form  noValidate validated={validated} onSubmit={handleSubmit}>
 <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
     <Form.Label>Name</Form.Label>
-    <Form.Control type="name" placeholder="name"  />
+    <Form.Control type="name" placeholder="name" required />
   </Form.Group>
   <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
     <Form.Label>Email address</Form.Label>
-    <Form.Control type="email" placeholder="name@example.com" />
+    <Form.Control type="email" placeholder="name@example.com" required />
   </Form.Group>
-  <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+  <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1" >
     <Form.Label>Subject</Form.Label>
-    <Form.Control as="textarea" rows={3} />
+    <Form.Control as="textarea" rows={3} required />
   </Form.Group>
-  {/* <Button variant="primary" type="submit">
+  <Button variant="primary" type="submit" className='modalBtn' >
     Submit
-  </Button> */}
-</Form></Modal.Body>
-        <Modal.Footer>
+  </Button>
+</Form>
+</Modal.Body>
+        
+      
+      <Modal.Footer>
           {/* <Button variant="secondary" onClick={handleClose}>
             Close
           </Button> */}
           <Button variant="primary" onClick={handleClose} className='modalBtn' >
-            Send
-          </Button>
+            Done
+          </Button> 
         </Modal.Footer>
       </Modal>
       

@@ -244,9 +244,26 @@ background-image: linear-gradient(#2D232E,#474448);
 .footerSection{
   display: flex;
   background-image: linear-gradient(to bottom left,#474448,#2D232E);
-  color:#eff3f5 ;
+  color:antiquewhite;
   height: 40px;
   font-size: 1.2rem;
+}
+
+.footerPic{
+  text-align: center;
+  align-items: baseline;
+  color:#474448;
+  height: 100%;
+  width: 20%;
+  border-right: rgb(96, 96, 155) solid 8px;
+  background-image: url('./Images/code2.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.footLink{
+  color: antiquewhite;
 }
 
 

@@ -164,6 +164,28 @@ width: 100%;
   
 }
 
+/* #contactDivs{
+height: 200px;
+display: flex;
+flex-wrap: wrap; 
+justify-content: space-evenly;
+}
+
+.contactLinks{
+width: 380px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+height: 200px;
+text-align: center;
+align-items: center;
+} */
+
+/* .contactLinks:hover{
+  box-shadow: 5px 10px 10px 10px #eff3f5;
+} */
+
+
 /* ======================================= */
 .img-container {
   width: 20%;
@@ -179,4 +201,55 @@ width: 100%;
 
 #txt{
   line-height: 2rem;
+}
+
+/* ================NavTabs================== */
+
+#nav-item{
+  color: antiquewhite;
+}
+
+.nav-item:hover{
+transition: 1ms;
+}
+
+.nav-item.active{
+background-image: linear-gradient(#2D232E,#474448);
+}
+
+.active{
+  background-color: #474448 !important;
+
+}
+
+
+
+
+@media screen and (max-width:926px) {
+  
+  .abtSection{
+    flex-direction: column;
+    height: auto;
+  }
+
+  #abtPic{
+    width:100%;
+    height: 20%;
+  }
+
+  #abtp{
+    width: 100%;
+    
+  }
+
+  .contactLinks{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+
+
+@media screen and(max-width:777) {
+  
 }

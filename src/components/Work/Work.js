@@ -50,17 +50,17 @@ function Work() {
         if (project === 'The Tech Blog') {
             setDetails({
                 title: "The Tech Blog",
-                image: Imgs.Staycold,
+                image: Imgs.Techblog,
                 url1: "https://github.com/Staycold/The_tech_blog",
                 url2:"https://cold-tech-blog.herokuapp.com/",
-                desc:"The tech blog was a full stack application I developed using handlebars and the MVC filt structure. It is a blog site where you can sign up, post topics, and comment. The foundation for any social media program."
+                desc:"The tech blog was a full stack application I developed using handlebars and the MVC file structure. It is a blog site where you can sign up, post topics, and comment. The foundation for any social media program."
             })
         }
 
         if (project === 'Fitness Tracker') {
             setDetails({
                 title: "Fitness Tracker",
-                image: Imgs.Staycold,
+                image: Imgs.Fitness,
                 url1: "https://github.com/Staycold/Fitness_tracker",
                 url2:"https://benefique-chaise-73181.herokuapp.com/?id=60ef3b49d7315c00159d3821",
                 desc:"The fitness tracker is a very useful application that allows you to keep track of your worktouts or training sessions. It provides you with the functionality to track many differnt aspects of your workouts, such as duration or how much weight you've lifted and presents you with graphed data."

@@ -5,6 +5,8 @@ import Passwordgen from './passwordgen.png'
 import Staycold from './Stay-cold-pin.jpg'
 import Code from './code.webp'
 import Contact from './contact.jpg'
+import Fitness from './fitness1.png'
+import Techblog from './techblog1.png'
 
 const Imgs = {
     Landingpageimg,
@@ -13,7 +15,10 @@ const Imgs = {
     Passwordgen,
     Staycold,
     Code,
-    Contact
+    Contact,
+    Fitness,
+    Techblog
+
 }
 
 export default Imgs;

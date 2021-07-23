@@ -22,50 +22,16 @@ return (
 
 </div>
 
-  {/* <div id='contactLinks'>
-    <ul className='contactLinks'>                   
-        <li className='contactList'>
-            <a href="mailto:patrickxbrodie@hotmail.com?subject=Portfolio Intrest">Patrickxbrodie@hotmail.com</a>
-        </li>
-        <li className='contactList'>
-            <a href="https://www.linkedin.com/in/patrick-brodie-a767261b5/" target="_blank">LinkedIn</a>
-        </li>
-        <li className='contactList'>
-            <a href="#">555-555-5555</a>
-        </li>  
-        <li className='contactList'>
-            <a href="https://worldofwarcraft.com/en-us/character/us/skullcrusher/staycold" target="_blank">Staycold</a>
-        </li>
-    </ul>
-  </div>
-</div> */}
+ 
 
-
-
-{/* <Form>
-<Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-    <Form.Label>Name</Form.Label>
-    <Form.Control type="name" placeholder="name" />
-  </Form.Group>
-  <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-    <Form.Label>Email address</Form.Label>
-    <Form.Control type="email" placeholder="name@example.com" />
-  </Form.Group>
-  <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-    <Form.Label></Form.Label>
-    <Form.Control as="textarea" rows={3} />
-  </Form.Group>
-  <Button variant="primary" type="submit">
-    Submit
-  </Button>
-</Form> */}
 
 
 <>
-      <Button variant="primary" onClick={handleShow}>
+<div className='contactModal'>
+      <Button variant="primary" onClick={handleShow} className='modalBtn'>
         Contact Me
       </Button>
-
+    
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
           <Modal.Title>Contact Me</Modal.Title>
@@ -73,7 +39,7 @@ return (
         <Modal.Body><Form>
 <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
     <Form.Label>Name</Form.Label>
-    <Form.Control type="name" placeholder="name" />
+    <Form.Control type="name" placeholder="name"  />
   </Form.Group>
   <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
     <Form.Label>Email address</Form.Label>
@@ -91,12 +57,35 @@ return (
           {/* <Button variant="secondary" onClick={handleClose}>
             Close
           </Button> */}
-          <Button variant="primary" onClick={handleClose}>
+          <Button variant="primary" onClick={handleClose} className='modalBtn' >
             Send
           </Button>
         </Modal.Footer>
       </Modal>
+      
+    </div>
+
     </>
+
+
+ {/* <div id='contactLinks'>
+    <ul className='contactLinks'>                   
+        <li className='contactList'>
+            <a href="mailto:patrickxbrodie@hotmail.com?subject=Portfolio Intrest">Patrickxbrodie@hotmail.com</a>
+        </li>
+        <li className='contactList'>
+            <a href="https://www.linkedin.com/in/patrick-brodie-a767261b5/" target="_blank">LinkedIn</a>
+        </li>
+        <li className='contactList'>
+            <a href="#">555-555-5555</a>
+        </li>  
+        <li className='contactList'>
+            <a href="https://worldofwarcraft.com/en-us/character/us/skullcrusher/staycold" target="_blank">Staycold</a>
+        </li>
+    </ul>
+  </div> */}
+
+
 
 </div>
 

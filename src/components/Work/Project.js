@@ -12,18 +12,18 @@ function Project(props) {
                     <img src={props.details.image} className="project-img" alt="" />
                 </div>
                 <div className="desc-container">
-                    <h2>{props.details.title} </h2>
-                    <p id='txt'>{props.details.desc}</p>
+                    <h2 className='wrklinks'>{props.details.title} </h2>
+                    <p id='txt' className='wrklinks'>{props.details.desc}</p>
                 </div>
 
             </div>
 
-            <div className="d-flex justify-content-around " id='wrklinks'>
+            <div className="d-flex justify-content-around " >
                 <div>
-                    <a href={props.details.url1} target="_blank">The Code</a>
+                    <a href={props.details.url1} target="_blank" className='wrklinks'>The Code</a>
                 </div>
                 <div>
-                <a href={props.details.url2} target="_blank">Deployed</a>
+                <a href={props.details.url2} target="_blank" className='wrklinks'>Deployed</a>
                 </div>
             </div>
 

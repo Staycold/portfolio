@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Varela+Round&display=swap');
+
 *{
-  font-family: 'Merriweather', serif;
+  /* font-family: 'Varela Round', sans-serif; */
+  font-family: 'Crimson Text', 'Merriweather' serif;
 }
 
 #header{
@@ -32,7 +36,8 @@
   height: 260px;
   width: 100%;
   background-image: linear-gradient(to bottom right,#2D232E,#474448);
-  color:#eff3f5 ;
+  color:antiquewhite ;
+  font-size: 1.2rem;
   
 }
 
@@ -73,6 +78,7 @@
   background-image: linear-gradient(to bottom left,#474448,#2D232E);
   color:#eff3f5 ;
   height: 450px;
+  font-size: 1.2rem;
  
 }
 
@@ -120,6 +126,10 @@ justify-content: space-between;
   padding: 15px;
 }
 
+.wrklinks{
+  color: antiquewhite;
+}
+
 
 #project-section{
 
@@ -160,30 +170,37 @@ width: 100%;
   width: 80%;
 }
 
-.contactList{
-  
+.contactModal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 80%;
 }
 
-/* #contactDivs{
-height: 200px;
-display: flex;
-flex-wrap: wrap; 
-justify-content: space-evenly;
+/* .modal{
+  background-color: #2D232E;
+  color: antiquewhite;
+} */
+
+.modalBtn{
+background-color: antiquewhite;
+color: #2D232E;
 }
 
-.contactLinks{
-width: 380px;
-display: flex;
-flex-wrap: wrap;
-justify-content: space-around;
-height: 200px;
-text-align: center;
-align-items: center;
-} */
+.modalBtn:hover{
+  box-shadow: 5px #eff3f5;
+  background-color: #474448;
+  color: antiquewhite;
 
-/* .contactLinks:hover{
-  box-shadow: 5px 10px 10px 10px #eff3f5;
-} */
+}
+
+.modalBtn::after{
+  background-color: antiquewhite;
+color: #2D232E;
+}
+
+#sendBtn
 
 
 /* ======================================= */
@@ -222,6 +239,16 @@ background-image: linear-gradient(#2D232E,#474448);
 
 }
 
+/* ========Footer========== */
+
+.footerSection{
+  display: flex;
+  background-image: linear-gradient(to bottom left,#474448,#2D232E);
+  color:#eff3f5 ;
+  height: 40px;
+  font-size: 1.2rem;
+}
+
 
 
 
@@ -240,6 +267,38 @@ background-image: linear-gradient(#2D232E,#474448);
   #abtp{
     width: 100%;
     
+  }
+
+  .workSection{
+    flex-direction: column;
+    height: auto;
+    
+  }
+
+  #work{
+    width:100%;
+    height: 20%;
+  }
+
+  .wrklinks{
+    flex-direction: column;
+    height: auto;
+
+  }
+
+  .desc-container{
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .contact{
+    flex-direction: column;
+    height: auto;
+  }
+
+  .footerSection{
+    flex-direction: column;
+    height: auto;
   }
 
   .contactLinks{

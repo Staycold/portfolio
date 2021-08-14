@@ -25,7 +25,7 @@ function Work() {
                 title: "Github", 
                 image: Imgs.Staycold,
                 url1: "https://github.com/Staycold",
-                url2:"",
+                url2:"https://github.com/Staycold",
                 desc:"This is My Github profile. Check out all the useful apps I've written."
             })
         }

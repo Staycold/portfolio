@@ -42,7 +42,7 @@ function Work() {
             setDetails({
                 title: "Plan Your Trip",
                 image: Imgs.Landingpageimg,
-                url1: "https://github.com",
+                url1: "https://github.com/darylnauman/cold-travel-planner",
                 url2:"https://intense-savannah-61016.herokuapp.com/" ,
                 desc:"Plan Your Trip was the second project I presented for my bootcamp. A small passion project of an idea, this application lets you create an account, where you can store a planned or past trip, with a breakdown for budgeting and even a currency conversion feature. In addition to those features, you can search for and add destinations, and even leave comments on destinations so that you can pass on tips or suggestions to other users."
             })

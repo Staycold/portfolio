@@ -19,8 +19,15 @@
   height: 400px;
 }
 
-.about{
-  
+span[data-description]:hover::after{
+  content:attr(data-description);
+  position: absolute;
+  left: auto;
+  border: #2D232E;
+  background-color: transparent;
+  color:#eee6ce;
+  padding:2px;
+  cursor: pointer;
 }
 
 #pics{

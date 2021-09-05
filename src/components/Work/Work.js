@@ -63,7 +63,7 @@ function Work() {
                 image: Imgs.Fitness,
                 url1: "https://github.com/Staycold/Fitness_tracker",
                 url2:"https://benefique-chaise-73181.herokuapp.com/?id=60ef3b49d7315c00159d3821",
-                desc:"The fitness tracker is a very useful application that allows you to keep track of your worktouts or training sessions. It provides you with the functionality to track many differnt aspects of your workouts, such as duration or how much weight you've lifted and presents you with graphed data."
+                desc:"The fitness tracker is a very useful application that allows you to keep track of your worktouts or training sessions. It provides you with the functionality to track many different aspects of your workouts, such as duration or how much weight you've lifted and presents you with graphed data."
             })
         }
 

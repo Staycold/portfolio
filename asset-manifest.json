@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.49352ac4.chunk.css",
-    "main.js": "/portfolio/static/js/main.22c19398.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.22c19398.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.97e67cb7.chunk.css",
+    "main.js": "/portfolio/static/js/main.d17815a1.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.d17815a1.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.ec39c8a5.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.ec39c8a5.js.map",
     "static/css/2.4be38407.chunk.css": "/portfolio/static/css/2.4be38407.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.ca69bb20.chunk.js.map": "/portfolio/static/js/3.ca69bb20.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/2.4be38407.chunk.css.map": "/portfolio/static/css/2.4be38407.chunk.css.map",
-    "static/css/main.49352ac4.chunk.css.map": "/portfolio/static/css/main.49352ac4.chunk.css.map",
+    "static/css/main.97e67cb7.chunk.css.map": "/portfolio/static/css/main.97e67cb7.chunk.css.map",
     "static/js/2.89ee19f4.chunk.js.LICENSE.txt": "/portfolio/static/js/2.89ee19f4.chunk.js.LICENSE.txt",
     "static/media/Stay-cold-pin.1651be4c.jpg": "/portfolio/static/media/Stay-cold-pin.1651be4c.jpg",
     "static/media/big-esports-event.f6d3332d.jpg": "/portfolio/static/media/big-esports-event.f6d3332d.jpg",
@@ -27,7 +27,7 @@
     "static/js/runtime-main.ec39c8a5.js",
     "static/css/2.4be38407.chunk.css",
     "static/js/2.89ee19f4.chunk.js",
-    "static/css/main.49352ac4.chunk.css",
-    "static/js/main.22c19398.chunk.js"
+    "static/css/main.97e67cb7.chunk.css",
+    "static/js/main.d17815a1.chunk.js"
   ]
 }
